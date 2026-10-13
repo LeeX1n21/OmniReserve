@@ -8,6 +8,6 @@
 //Clave, Tarea5: No hubo mucho que hacer, por lo que no hubo código para la tarea5. 
 //Me acabo de enterar que todo lo que escribo en el README aparece en mi github, que pena.
 //Clave, Tarea7: Actualicé código. Ya me cansé.
-//Clave, Actividad8: Según yo hice un cambio pero el el bash no me lo reconoce.
+//Clave, Actividad8: Según yo hice un cambio pero en el bash no me lo reconoce.
 //Clave, Actividad9: Tengo errores que quiero solucionar pero creo que se solucionarán solos en la tarea 9.
-
+//Clave, Actividad10: Ya había agregado lo que me faltaba y no me di cuenta y efectivamente se resolvieron mis errores, haré un build para que también sea parte del commit.
