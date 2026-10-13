@@ -1,12 +1,32 @@
-﻿using FluentValidation;
+﻿using MediatR;
+using OmniReserve.Application.Common.Interfaces;
 
 namespace OmniReserve.Application.Rooms.Queries.GetRoomById;
 
-public class GetRoomByIdQueryValidator : AbstractValidator<GetRoomByIdQuery>
+public class GetRoomByIdQueryHandler : IRequestHandler<GetRoomByIdQuery, RoomResponseDto>
 {
-    public GetRoomByIdQueryValidator()
+    private readonly IRoomRepository _roomRepository;
+
+    public GetRoomByIdQueryHandler(IRoomRepository roomRepository)
     {
-        RuleFor(x => x.RoomId)
-            .NotEmpty().WithMessage("El identificador de la habitación es obligatorio.");
+        _roomRepository = roomRepository;
+    }
+
+    public async Task<RoomResponseDto> Handle(GetRoomByIdQuery request, CancellationToken cancellationToken)
+    {
+        var room = await _roomRepository.GetByIdAsync(request.RoomId);
+        
+        if (room is null)
+            throw new Exception("Habitación no encontrada");
+
+        var response = new RoomResponseDto(
+            room.Id, 
+            room.RoomNumber, 
+            room.Type.ToString(), 
+            room.PricePerNight, 
+            room.IsAvailable
+        );
+
+        return response;
     }
 }
