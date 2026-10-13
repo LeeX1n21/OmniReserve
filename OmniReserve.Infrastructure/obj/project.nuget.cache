@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jjFw7XhCi8k=",
+  "dgSpecHash": "W0z2pMIPXDY=",
   "success": true,
   "projectFilePath": "C:\\Users\\spine\\Desktop\\OmniReserve\\OmniReserve\\OmniReserve.Infrastructure\\OmniReserve.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\spine\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.12\\microsoft.extensions.configuration.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\spine\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.12\\microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\spine\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.12\\microsoft.extensions.primitives.10.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
