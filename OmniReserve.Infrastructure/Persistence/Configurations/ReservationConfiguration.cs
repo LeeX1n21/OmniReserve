@@ -18,10 +18,18 @@ public class ReservationConfiguration : IEntityTypeConfiguration<Reservation>
         builder.Property(r => r.UserId)
             .IsRequired();
 
-        builder.Property(r => r.StartDate)
+        builder.Property(r => r.CheckInDate)
             .IsRequired();
 
-        builder.Property(r => r.EndDate)
+        builder.Property(r => r.CheckOutDate)
             .IsRequired();
+
+        builder.Property(r => r.TotalPrice)
+            .IsRequired()
+            .HasPrecision(18, 2);
+
+        builder.Property(r => r.Status)
+            .IsRequired()
+            .HasConversion<string>();
     }
 }
