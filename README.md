@@ -8,3 +8,4 @@
 //Clave, Tarea5: No hubo mucho que hacer, por lo que no hubo código para la tarea5. 
 //Me acabo de enterar que todo lo que escribo en el README aparece en mi github, que pena.
 //Clave, Tarea7: Actualicé código. Ya me cansé.
+//Clave, Actividad8: Según yo hice un cambio pero el el bash no me lo reconoce.
