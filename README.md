@@ -13,3 +13,4 @@
 //Clave, Actividad10: Ya había agregado lo que me faltaba y no me di cuenta y efectivamente se resolvieron mis errores, haré un build para que también sea parte del commit.
 //Clave, Tarea10: Hice un build para revisar que todo estuviera en orden.
 //Clave, Actividad11: Solo hubieron unas pequeñas modificaciones.
+//Clave, Tarea12: Sí funcionó no puedo creerlo, voy a llorar.
