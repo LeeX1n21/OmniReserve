@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[10.0.12, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[10.3.0, )"
@@ -1264,6 +1268,10 @@
               "target": "Package",
               "version": "[10.0.12, )"
             },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[10.0.12, )"
@@ -1271,6 +1279,10 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[10.0.12, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[10.0.3, )"
             }
           },
           "imports": [
