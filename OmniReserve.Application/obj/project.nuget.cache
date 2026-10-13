@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "x1ZnLSCa1Hw=",
+  "dgSpecHash": "0sOXAU0xNiE=",
   "success": true,
   "projectFilePath": "C:\\Users\\spine\\Desktop\\OmniReserve\\OmniReserve\\OmniReserve.Application\\OmniReserve.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\spine\\.nuget\\packages\\fluentvalidation\\12.2.0\\fluentvalidation.12.2.0.nupkg.sha512",
+    "C:\\Users\\spine\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.2.0\\fluentvalidation.dependencyinjectionextensions.12.2.0.nupkg.sha512",
     "C:\\Users\\spine\\.nuget\\packages\\mediatr\\14.2.0\\mediatr.14.2.0.nupkg.sha512",
     "C:\\Users\\spine\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\spine\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
