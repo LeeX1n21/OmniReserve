@@ -11,6 +11,8 @@ public class User
     public string PasswordHash { get; private set; }
     public Role Role { get; private set; }
 
+    public ICollection<Reservation> Reservations { get; private set; } = new List<Reservation>();
+
     public User(string firstName, string lastName, string email, string passwordHash, Role role)
     {
         if (string.IsNullOrWhiteSpace(firstName)) throw new ArgumentNullException(nameof(firstName));
@@ -25,5 +27,4 @@ public class User
         PasswordHash = passwordHash;
         Role = role;
     }
-
 }
