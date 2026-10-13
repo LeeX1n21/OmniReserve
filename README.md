@@ -9,3 +9,5 @@
 //Me acabo de enterar que todo lo que escribo en el README aparece en mi github, que pena.
 //Clave, Tarea7: Actualicé código. Ya me cansé.
 //Clave, Actividad8: Según yo hice un cambio pero el el bash no me lo reconoce.
+//Clave, Actividad9: Tengo errores que quiero solucionar pero creo que se solucionarán solos en la tarea 9.
+
