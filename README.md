@@ -12,3 +12,4 @@
 //Clave, Actividad9: Tengo errores que quiero solucionar pero creo que se solucionarán solos en la tarea 9.
 //Clave, Actividad10: Ya había agregado lo que me faltaba y no me di cuenta y efectivamente se resolvieron mis errores, haré un build para que también sea parte del commit.
 //Clave, Tarea10: Hice un build para revisar que todo estuviera en orden.
+//Clave, Actividad11: Solo hubieron unas pequeñas modificaciones.
