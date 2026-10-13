@@ -15,6 +15,7 @@ public static class DependencyInjection
             options.UseNpgsql(configuration.GetConnectionString("OmniReserveDb")));
 
         services.AddScoped<IRoomRepository, RoomRepository>();
+        services.AddScoped<IReservationRepository, ReservationRepository>();
 
         return services;
     }
