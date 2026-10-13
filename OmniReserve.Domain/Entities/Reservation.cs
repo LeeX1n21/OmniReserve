@@ -13,6 +13,9 @@ public class Reservation
     public decimal TotalPrice { get; private set; }
     public ReservationStatus Status { get; private set; }
 
+    public Room Room { get; private set; } = null!;
+    public User User { get; private set; } = null!;
+
     public Reservation(Guid userId, Guid roomId, DateTime checkInDate, DateTime checkOutDate, decimal totalPrice)
     {
         if (checkInDate >= checkOutDate)
