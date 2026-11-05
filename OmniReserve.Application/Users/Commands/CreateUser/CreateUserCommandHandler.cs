@@ -33,4 +33,3 @@ public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
         return user.Id;
     }
 }
-//NOTA
