@@ -17,6 +17,8 @@ public static class DependencyInjection
         services.AddScoped<IRoomRepository, RoomRepository>();
         services.AddScoped<IReservationRepository, ReservationRepository>();
         services.AddScoped<IPasswordHasher, BCryptPasswordHasher>();
+        services.Configure<JwtSettings>(configuration.GetSection(JwtSettings.SectionName));
+        services.AddScoped<IJwtProvider, JwtProvider>();
 
         return services;
     }
