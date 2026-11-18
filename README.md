@@ -19,3 +19,4 @@
 //Clave, Tarea15: ''
 //Clave, Tarea17: Creo que me faltó algo pero no entiendo que fue
 //Clave, Actividad18: Aprendí a no confiar en Yovany
+//Clave, Tarea18: Retomé el trabajo después de abandonarlo 1 semana, pero se me olvidó qué hice, así que mejor hago un comentario para tener el commit, también olvidé como correrlo.
